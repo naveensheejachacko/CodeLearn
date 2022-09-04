@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link
+{
+    color: black;
+    font-weight: 600;
+}
+.navbar-brand
+{
+    font-weight: bold;
+}
+.nav-item
+{
+    
+    font-size: medium;
+    text-transform: uppercase;
+
+}
+.nav-link:hover
+{
+    color:red;
+}
+.download
+{
+    height: 3rem;
+    width: 10rem;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-size: large;
+
+}
+.download:hover
+{
+    background-color: tomato;
+    transition-delay: 0.2s;
+}
+.heading
+{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(43, 43, 112);
+}
+.p-head
+{
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+.btn-1
+{
+    cursor: pointer;
+    height: 3rem;
+    width: 9.5rem;
+    border: none;
+    outline: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    margin:auto;
+}
+.btn-1:hover
+{
+background: tomato;
+transition: .2s;
+}
+.btn-2
+{
+    cursor: pointer;
+    height: 3rem;
+    width: 9.5rem;
+    border: .05rem solid rgb(54, 149 , 204);
+    border-radius: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    background: transparent;
+}
+.btn-2:hover
+{
+    color: rgb(4, 4, 70);
+    transition: .2s;
+    border: .2rem solid black;
+}
+
+.span
+{
+    font-size:larger ;
+    font-weight: 500;
+    color: grey;
+}
+.para
+{
+    font-size: 1.1rem;
+    color: rgb(75, 61, 61);
+}
+.course
+{
+    background-color: rgb(225 , 240, 246);
+}
+
+.card1
+{
+    background: rgb(163, 223, 247);
+    -webkit-box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+}
+.card:hover
+{   
+    cursor: pointer;
+    background: rgb(225,240,246);
+    -webkit-box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+}.card1:hover
+{
+    background: rgb(225,240,246);
+    -webkit-box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 10px -8px rgba(0,0,0,0.75);
+}
+footer
+{
+    background: rgb(225,240,246);
+}
+.soc
+{
+    padding-left: .2rem;
+    text-decoration: none;
+}
+.exp
+{
+list-style-type: none;
+}
+.tut{
+    display: flex;
+    justify-content: space-between;
+}
